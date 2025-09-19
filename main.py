@@ -1,16 +1,20 @@
 # Ez az első pyton szkript
-
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Szia, {name}')  # Press F9 to toggle the breakpoint.
+import p03
+from p03 import szam_bekerese
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Üdv a pytonon')
+szam = 10
+while szam > 2:
+    szam == 1
+    if szam == 4:
+       continue
+    if szam == 3:
+        break
+    print(szam)
+else:
+    print("Vége a ciklusnak")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    while True:
+        szam += 1
+        if szam == 30:
+            break
