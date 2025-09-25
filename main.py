@@ -1,20 +1,26 @@
-# Ez az első pyton szkript
-import p03
-from p03 import szam_bekerese
+'''
+import math
+import random
+from math import expm1
+
+try:
+    eredmeny = 10 / 5
+    #eredmeny = 10 / 0
+    #eredmeny = 10 / ertek
+except ZeroDivisionError:
+    print("Hiba. Nullával való osztás")
+except NameError:
+    print("hiba: névhiba")
+print(eredmeny)
 
 
-szam = 10
-while szam > 2:
-    szam == 1
-    if szam == 4:
-       continue
-    if szam == 3:
-        break
-    print(szam)
-else:
-    print("Vége a ciklusnak")
 
-    while True:
-        szam += 1
-        if szam == 30:
-            break
+
+
+
+
+
+print(math.sqrt(9))
+for _ in range(50):
+        print(random.randint(1,10))
+'''
